@@ -28,3 +28,6 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## MORPHEUS integration
+- Mount the supplied MORPHEUS React workspace at `/` and reuse its typed same-origin API client; keep existing FastAPI contracts unchanged so the UI remains evidence-backed.
